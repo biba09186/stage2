@@ -1,0 +1,13 @@
+names:
+- nom
+- prenom
+nc: 2
+roboflow:
+  license: Public Domain
+  project: cin-wxdyl-jkgcy
+  url: https://universe.roboflow.com/hiba-16eio/cin-wxdyl-jkgcy/dataset/4
+  version: 4
+  workspace: hiba-16eio
+test: ../test/images
+train: ../train/images
+val: ../valid/images
