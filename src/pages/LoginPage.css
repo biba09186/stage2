@@ -1,0 +1,95 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  /* Utiliser le même dégradé que la page d'accueil */
+  background: linear-gradient(to bottom, #175d69 23%, #330c43 95%);
+  color: #fff;
+}
+
+.login-page .login-card {
+  background: #fff;
+  color: #333;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-page .login-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #175d69; /* Couleur principale de la page d'accueil */
+  margin-bottom: 0.5rem;
+}
+
+.login-page .login-subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.login-page .login-error {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 0.75rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.login-page .login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-page .form-group {
+  text-align: left;
+}
+
+.login-page .form-group label {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.login-page .form-input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.login-page .form-input:focus {
+  border-color: #175d69; /* Couleur principale de la page d'accueil */
+}
+
+.login-page .login-button {
+  background: #47b2e4; /* Couleur du bouton "Join" de la page d'accueil */
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-page .login-button:hover {
+  background: #175d69; /* Couleur principale de la page d'accueil */
+}
+
+.login-page .login-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}

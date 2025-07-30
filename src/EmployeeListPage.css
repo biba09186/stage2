@@ -1,0 +1,47 @@
+/* Boutons 3D */
+.btn-3d {
+  box-shadow: 0 4px 16px rgba(20,40,80,0.18), 0 1.5px 0 #27496d;
+  border-radius: 8px;
+  transition: all 0.15s cubic-bezier(.17,.67,.83,.67);
+  font-weight: 600;
+  background: linear-gradient(90deg, #27496d 0%, #142850 100%);
+  color: #fff;
+  border: none;
+}
+.btn-3d:active {
+  box-shadow: 0 2px 8px rgba(20,40,80,0.12);
+  transform: translateY(2px) scale(0.98);
+}
+
+/* Inputs 3D */
+.input-3d {
+  box-shadow: 0 2px 8px rgba(20,40,80,0.08);
+  border-radius: 6px;
+  border: 1px solid #27496d;
+}
+
+/* Glassmorphism card/table */
+.glass-card {
+  background: rgba(255,255,255,0.85);
+  box-shadow: 0 8px 32px rgba(20,40,80,0.18);
+  border-radius: 18px;
+  border: 1px solid rgba(39,73,109,0.12);
+  backdrop-filter: blur(6px);
+}
+.glass-table {
+  background: rgba(255,255,255,0.92);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(20,40,80,0.10);
+}
+.table-header th {
+  background: linear-gradient(90deg, #27496d 0%, #142850 100%);
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  font-size: 1rem;
+}
+.table-row:hover {
+  background: #e3f2fd !important;
+  transition: background 0.2s;
+}

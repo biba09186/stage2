@@ -1,0 +1,59 @@
+/* Couleurs globales */
+:root {
+  --primary-color: #5F41E4;
+  --primary-hover: #4320df;
+  --secondary-color: #bfb3f2;
+  --accent-color: #6652BE;
+  --background-color: #F9F8FF;
+  --white: #FFFFFF;
+}
+
+/* Styles de base */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Cartes */
+.card {
+  background: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+/* Boutons */
+.btn-primary {
+  background: var(--primary-color);
+  color: var(--white);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.31rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+}
+
+/* Liens */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,55 @@
+.employee-list-page {
+  background: linear-gradient(120deg, #23395d 0%, #1e2a47 100%);
+  min-height: 100vh;
+  padding-top: 30px;
+}
+
+.employee-list-page .card {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 2px 16px rgba(35, 57, 93, 0.08);
+  background: #fff;
+}
+
+.employee-list-page .card-title {
+  color: #23395d;
+  font-weight: 600;
+}
+
+.employee-list-page .modern-form input,
+.employee-list-page .modern-form select {
+  border-radius: 8px;
+  border: 1px solid #dbe2ef;
+  background: #f7f9fb;
+  color: #23395d;
+}
+
+.employee-list-page .btn-primary {
+  background: #23395d;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background 0.2s;
+}
+.employee-list-page .btn-primary:hover {
+  background: #1e2a47;
+}
+
+.employee-list-page table {
+  font-size: 0.98rem;
+}
+
+.employee-list-page th, .employee-list-page td {
+  vertical-align: middle;
+}
+
+.employee-list-page .table-light th {
+  background: #f7f9fb;
+  color: #23395d;
+}
+
+.employee-list-page .alert {
+  font-size: 0.95rem;
+  border-radius: 8px;
+}
